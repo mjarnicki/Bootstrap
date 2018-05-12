@@ -1,0 +1,72 @@
+#navigation {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+#header {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/header/pictures_on_the_wall.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 0;
+}
+
+#blur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .2);
+    text-align: center;
+    color: white;
+
+}
+
+#blur h2 {
+    color: white;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    top: 240px;
+}
+
+#blur h1 {
+    font-size: 60px;
+    position: relative;
+    top: 250px;
+}
+#blur button{
+    padding: 10px 40px;
+    background-color: #10D8D8;
+    border-color: #10D8D8;
+      position: relative;
+    top: 300px;
+    transition: all 0.3s ease-in-out;
+}
+#blur button:hover
+{
+    background-color: #09C7c7;
+}
+.service-column {
+    height: 600px;
+}
+
